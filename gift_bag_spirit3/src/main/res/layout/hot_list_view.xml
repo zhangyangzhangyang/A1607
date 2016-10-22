@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/hot_image_view"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/hot_image"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/hot_title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="游戏名"
+        android:textSize="20sp"
+        android:layout_alignTop="@id/hot_image_view"
+        android:layout_toRightOf="@id/hot_image_view"/>
+    <TextView
+        android:id="@+id/hot_role_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="类型：角色扮演"
+        android:layout_below="@id/hot_title_txt"
+        android:layout_toRightOf="@id/hot_image_view"/>
+    <TextView
+        android:id="@+id/hot_number_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="大小：50M"
+        android:layout_alignBottom="@id/hot_image_view"
+        android:layout_toRightOf="@id/hot_image_view"/>
+    <TextView
+        android:id="@+id/hot_people_number_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1324人在玩"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

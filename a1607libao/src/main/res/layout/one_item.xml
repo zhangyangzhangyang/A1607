@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:descendantFocusability="blocksDescendants"
+   >
+    <ImageView
+        android:id="@+id/item_image_view"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/item_text_view_gamaname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/item_image_view"
+        android:layout_alignTop="@id/item_image_view"
+        android:text="游戏名称"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:id="@+id/item_text_view_giftname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_text_view_gamaname"
+        android:layout_alignLeft="@id/item_text_view_gamaname"
+        android:text="礼包名字"
+        android:layout_margin="5dp"
+        android:textSize="10sp"
+       />
+    <TextView
+        android:id="@+id/item_text_view_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_alignLeft="@id/item_text_view_giftname"
+        android:layout_below="@id/item_text_view_giftname"
+        android:text="剩余"
+        android:textColor="#ff0000"
+        android:textSize="10sp"/>
+    <TextView
+        android:id="@+id/item_text_view_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/item_text_view_giftname"
+        android:layout_toRightOf="@id/item_text_view_left"
+      android:layout_marginLeft="20dp"
+        android:text="时间"
+        android:textSize="10sp"
+       />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/item_text_view_gamaname"
+        android:layout_margin="20dp"
+        android:layout_marginRight="19dp"
+        android:background="#ff0000"
+        android:text="立即领取"
+        android:textSize="10sp"
+        android:textColor="#ffffff"
+      />
+
+
+</RelativeLayout>

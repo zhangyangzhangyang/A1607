@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cxk.MainActivity">
+
+   <FrameLayout
+       android:id="@+id/main_fragment"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_above="@+id/view"/>
+   <View
+       android:id="@id/view"
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="#ff0000"
+       android:layout_above="@+id/main_radiogroup"/>
+   <RadioGroup
+       android:id="@id/main_radiogroup"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="-15dp"
+       android:orientation="horizontal"
+       android:background="#FFFFFF"
+       >
+
+      <RadioButton
+          android:id="@+id/main_radio_one"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:checked="true"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/radio_one_selector"
+          android:button="@null"
+          />
+      <RadioButton
+          android:id="@+id/main_radio_two"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:drawableTop="@drawable/radio_two_selector"
+          android:layout_height="wrap_content"
+          android:button="@null"/>
+      <RadioButton android:id="@+id/main_radio_three"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/radio_three_selector"
+          android:button="@null"/>
+      <RadioButton android:id="@+id/main_radio_four"
+          android:layout_width="0dp"
+          android:layout_weight="1"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/radio_four_selector"
+          android:button="@null"/>
+   </RadioGroup>
+</RelativeLayout>

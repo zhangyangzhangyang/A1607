@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.day28_custom_view_attrs.MainActivity">
+
+    <com.example.day28_custom_view_attrs.Custom
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:customColor ="#FF0000"
+        app:customSize ="40sp"
+        app:customText="这是自定义属性"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"/>
+</LinearLayout>

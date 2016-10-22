@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/tese_kaice_iv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/select_host"/>
+    <TextView
+        android:id="@+id/tese_kaice_tv"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="新游周刊"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@color/bantouming"
+        android:layout_marginBottom="20dp"
+        android:layout_alignBottom="@+id/tese_kaice_iv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+
+</RelativeLayout>

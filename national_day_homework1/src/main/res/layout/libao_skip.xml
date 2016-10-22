@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="200dp">
+    <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/gift_bag_details_img" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/bantouming" android:src="@drawable/normal_host" />
+    <TextView android:id="@+id/gift_bag_details_time_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="有效期：2016-9-30" android:layout_alignParentBottom="true" />
+    <TextView android:id="@+id/gift_bag_details_number_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="礼包剩余：80" android:background="#ff0000" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>
+    <TextView android:id="@+id/gift_bag_state_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="礼包说明" android:textSize="20sp" />
+    <TextView android:id="@+id/gift_bag_state_details_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="礼包说明内容" />
+    <TextView android:id="@+id/gift_bag_expiry_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20sp" android:text="兑奖方式" />
+    <TextView android:id="@+id/gift_bag_expiry_details_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="礼包说明内容" />
+</LinearLayout>

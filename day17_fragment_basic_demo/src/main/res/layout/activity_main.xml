@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.androidxx.yangjw.day17_fragment_basic_demo.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/left_layout"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/main_index_one_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="第一章节"/>
+        <Button
+            android:id="@+id/main_index_two_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="第二章节"/>
+        <Button
+            android:id="@+id/main_index_three_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="第三章节"/>
+    </LinearLayout>
+
+    <!-- 用来加载fragment -->
+    <FrameLayout
+        android:id="@+id/main_fragment_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/left_layout"/>
+</RelativeLayout>
