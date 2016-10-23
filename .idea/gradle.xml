@@ -12,11 +12,8 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/commonlibrary" />
             <option value="$PROJECT_DIR$/day31_mvp_list" />
-            <option value="$PROJECT_DIR$/day31_mvp_modle" />
-            <option value="$PROJECT_DIR$/day31_webview_helloworld" />
-            <option value="$PROJECT_DIR$/day31_webview_test" />
+            <option value="$PROJECT_DIR$/fox_pipaw" />
             <option value="$PROJECT_DIR$/gift_bag_spirit3" />
-            <option value="$PROJECT_DIR$/mytest" />
           </set>
         </option>
         <option name="myModules">
@@ -25,11 +22,8 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/commonlibrary" />
             <option value="$PROJECT_DIR$/day31_mvp_list" />
-            <option value="$PROJECT_DIR$/day31_mvp_modle" />
-            <option value="$PROJECT_DIR$/day31_webview_helloworld" />
-            <option value="$PROJECT_DIR$/day31_webview_test" />
+            <option value="$PROJECT_DIR$/fox_pipaw" />
             <option value="$PROJECT_DIR$/gift_bag_spirit3" />
-            <option value="$PROJECT_DIR$/mytest" />
           </set>
         </option>
       </GradleProjectSettings>
