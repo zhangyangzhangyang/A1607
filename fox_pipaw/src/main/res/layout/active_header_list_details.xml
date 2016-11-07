@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/active_header_list_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/user_head_dark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的积分:"
+        android:layout_alignBottom="@id/active_header_list_image"
+        android:layout_toRightOf="@id/active_header_list_image"/>
+    <Button
+        android:id="@+id/active_header_list_collect_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收藏"
+        android:drawableLeft="@drawable/huodong_collect"
+        android:onClick="collect"
+        android:layout_toLeftOf="@+id/active_header_list_msg_btn"/>
+    <Button
+        android:id="@id/active_header_list_msg_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="消息"
+        android:drawableLeft="@drawable/huodong_msg"
+        android:onClick="mag"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

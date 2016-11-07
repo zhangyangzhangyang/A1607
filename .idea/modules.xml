@@ -5,11 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/MyApplication1.iml" filepath="$PROJECT_DIR$/MyApplication1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/commonlibrary/commonlibrary.iml" filepath="$PROJECT_DIR$/commonlibrary/commonlibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day25_md5c_test/day25_cache.iml" filepath="$PROJECT_DIR$/day25_md5c_test/day25_cache.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day26_bound_service_2Activity/day26_bound_connection.iml" filepath="$PROJECT_DIR$/day26_bound_service_2Activity/day26_bound_connection.iml" />
-      <module fileurl="file://$PROJECT_DIR$/day31_mvp_list/day31_mvp_list.iml" filepath="$PROJECT_DIR$/day31_mvp_list/day31_mvp_list.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fox_pipaw/fox_pipaw.iml" filepath="$PROJECT_DIR$/fox_pipaw/fox_pipaw.iml" />
-      <module fileurl="file://$PROJECT_DIR$/gift_bag_spirit3/gift_bag_spirit3.iml" filepath="$PROJECT_DIR$/gift_bag_spirit3/gift_bag_spirit3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liwushuo/liwushuo.iml" filepath="$PROJECT_DIR$/liwushuo/liwushuo.iml" />
     </modules>
   </component>
 </project>

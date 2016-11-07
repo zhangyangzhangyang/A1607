@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/sort_game_list_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/game_online_2"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:id="@+id/sort_game_list_title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手机页游"
+        android:textSize="20sp"
+        android:layout_toRightOf="@id/sort_game_list_image"
+        android:layout_centerInParent="true"/>
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:src="@drawable/list_item_dark_btn"
+    android:layout_centerInParent="true"/>
+    <!--<View-->
+        <!--android:id="@+id/sort_game_list_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="15dp"-->
+        <!--android:visibility="gone"-->
+        <!--android:background="#ff0000"-->
+        <!--android:layout_alignParentBottom="true"        />-->
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/gift_header_1_image"
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"/>
+        <ImageView
+            android:id="@+id/gift_header_2_image"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:layout_toRightOf="@+id/gift_header_1_image"
+            android:src="@mipmap/ic_launcher"/>
+        <ImageView
+            android:id="@+id/gift_header_3_image"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:layout_toRightOf="@+id/gift_header_1_image"
+            android:layout_below="@id/gift_header_2_image"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="猜你想要"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_below="@id/gift_header_1_image"/>
+    </RelativeLayout>
+
+    <com.example.fox_pipaw.CustomListView
+        android:id="@+id/gift_guesswant_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#969696" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="豪华独家礼包"
+        android:drawableRight="@drawable/ic_mark_privilege"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#969696" />
+    <com.example.fox_pipaw.CustomListView
+        android:id="@+id/gift_big_gift_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/gift_hot_header_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#969696" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="热门推荐"
+        android:drawableRight="@drawable/ic_mark_excellent"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#969696" />
+    <com.example.fox_pipaw.CustomListView
+        android:id="@+id/gift_hot_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ImageView
+        android:id="@+id/gift_new_header_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#969696" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最新礼包"
+        android:drawableRight="@drawable/ic_mark_new"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+    <com.example.fox_pipaw.CustomListView
+        android:id="@+id/gift_new_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
+</ScrollView>
